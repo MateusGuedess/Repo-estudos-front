@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1760852372674" clover="3.2.0">
-  <project timestamp="1760852372674" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
-    <file name="input.component.tsx" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/components/input/input.component.tsx">
+<coverage generated="1760882283066" clover="3.2.0">
+  <project timestamp="1760882283066" name="All files">
+    <metrics statements="38" coveredstatements="31" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="3" elements="47" coveredelements="38" complexity="0" loc="38" ncloc="38" packages="4" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="14" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/App.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/main.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.button">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="button.component.tsx" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/components/button/button.component.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.input">
       <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="7" count="3" type="cond" truecount="1" falsecount="0"/>
-      <line num="8" count="3" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-    </file>
+      <file name="input.component.tsx" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/components/input/input.component.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mocks">
+      <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="handlers.ts" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/mocks/handlers.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="node.ts" path="/Users/mateusconceicao/www/frontend/tdd-test1/src/mocks/node.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
